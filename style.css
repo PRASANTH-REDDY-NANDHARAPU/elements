@@ -1,0 +1,73 @@
+
+body{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blog-container{
+    border-radius: 10px;
+    padding: 30px;
+    /* color: black; */
+    background-color: rgb(53, 11, 53);
+    color: white;
+    text-align: center;
+    width: 700px;
+    margin: 50px auto;
+
+}
+.blog-img{
+    width: 100%;
+    border-radius: 30px;
+}
+.btn{
+    background-color: rgb(14, 180, 91);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+/* .color{
+    color: tomato;
+} */
+
+.text::first-letter{
+    color: coral;
+    font-size: 70px;
+
+}
+/* .text::first-line{
+    color: coral;
+    font-size: 70px;
+
+} */
+.text::selection{
+    background-color: rgb(7, 218, 46);
+    color: rgb(0, 0, 0);
+
+}
+
+.btn:hover{
+    width: 100%;
+    /* padding: 30px 20px; */
+    color: blue;
+    /* cursor:grab; */
+    cursor:none;
+    /* cursor:all-scroll; */
+    /* cursor:pointer; */
+
+
+    box-shadow: 0px 0px 5px 10px rgb(88, 88, 91);
+}
+.hover:hover{
+    color: coral;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .blog-container{
+        width:auto;
+
+    }
+    
+  }
